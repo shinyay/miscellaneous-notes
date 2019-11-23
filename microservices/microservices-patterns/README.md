@@ -10,6 +10,13 @@
 ##### 課題
 - [Monolithic Hell](https://microservices.io/microservices/general/2018/11/04/potholes-in-road-from-monolithic-hell.html)
 
+#### Microservice Architecture
+独立してデプロイ可能なサービス群による疎結合なアプリケーション構成パターン
+
+- 小規模チーム
+- 最短リードタイム
+- 最小チーム間連携コスト
+
 ### サービス分割
 ### メッセージング
 ### 信頼性
