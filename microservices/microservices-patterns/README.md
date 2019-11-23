@@ -88,6 +88,12 @@ OUTBOX テーブルのトランザクションログを tail してメッセー�
   - Retriable Transaction
     - ロールバック不要で成功が保証されているローカルトランザクション
 
+### ビジネスロジック
+#### Aggregate
+Aggregate を整合性の境界とするパターン
+
+- １Aggregate :１トランザクション
+
 ## Demo
 
 ## Features
