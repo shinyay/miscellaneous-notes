@@ -68,6 +68,26 @@ OUTBOX テーブルのトランザクションログを tail してメッセー�
 
 - DB製品ごとに異なる低レベルコードの実装が必要
 
+### データ整合性
+#### Saga
+各サービスのローカルトランザクションを、非同期メッセージングでつなげてフローを構成するパターン
+
+- フロー・タイプ
+  - コリオグラフィー型: シンプルなフロー
+    - 各サービスが互いの実行結果に応じて協調して処理を実行し、最終的にワークフローを完遂する
+  - オーケストレーション型: 複雑なフロー
+    - 中央集権的なオーケストレータがサーガの進行を管理する
+- ローカル・トランザクション
+  - Compensatable Transaction
+    - 補償可能な (状況に応じて後で変更を打ち消すことができる) ローカルトランザクション
+    - Compensating Transaction と対になる
+  - Compensating Transaction
+    - 実行済み Compensatable Transaction と逆順で実行される
+  - Pivot Transaction
+    - Compensatble と Retriable の境界に位置するローカルトランザクション
+  - Retriable Transaction
+    - ロールバック不要で成功が保証されているローカルトランザクション
+
 ## Demo
 
 ## Features
