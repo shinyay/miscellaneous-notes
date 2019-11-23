@@ -4,6 +4,12 @@
 
 ## Description
 ### アーキテクチャ
+#### Monolithic Architecture
+単一コンポーネントによるアプリケーション構成パターン
+
+##### 課題
+- [Monolithic Hell](https://microservices.io/microservices/general/2018/11/04/potholes-in-road-from-monolithic-hell.html)
+
 ### サービス分割
 ### メッセージング
 ### 信頼性
