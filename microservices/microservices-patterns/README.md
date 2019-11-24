@@ -100,6 +100,12 @@ Aggregate が生成・変更された時に非同期メッセージを発行す�
 #### Domain Model
 ビジネスロジックを状態とふるまいを持つクラス群から成るオブジェクト指向的なドメインモデルで構成するパターン
 
+#### Event Sourcing
+Aggregate の永続化を Domain Event のシーケンスとして表現するパターン
+
+- Saga や CQRS と併用
+- udit Logging
+
 ## Demo
 
 ## Features
