@@ -104,7 +104,14 @@ Aggregate が生成・変更された時に非同期メッセージを発行す�
 Aggregate の永続化を Domain Event のシーケンスとして表現するパターン
 
 - Saga や CQRS と併用
-- udit Logging
+- Audit Logging
+
+### クエリー
+#### CQRS (Command Query Responsibility Segregation)
+コマンドサイドとクエリサイドで、別々にモデルとデータストアを用意して、イベントハンドラで同期するパターン
+
+#### API Composition
+複数サービスへのアクセスと、そのレスポンスの組み立てをAPI Composerが行うパターン
 
 ## Demo
 
