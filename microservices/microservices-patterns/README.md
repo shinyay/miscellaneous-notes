@@ -128,6 +128,9 @@ Aggregate の永続化を Domain Event のシーケンスとして表現する�
 - クライアント専用API
 - など
 
+#### Backends for Front-Ends
+外部APIクライアントのために、専用の API Gateway を置くパターン
+
 ## Demo
 
 ## Features
