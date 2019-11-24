@@ -113,6 +113,21 @@ Aggregate の永続化を Domain Event のシーケンスとして表現する�
 #### API Composition
 複数サービスへのアクセスと、そのレスポンスの組み立てをAPI Composerが行うパターン
 
+### 外部API
+外部クライアントからのアクセスの受口
+- Web アプリケーション
+- JavaScript
+- モバイルアプリケーション
+- 公開API
+- など
+
+#### API Gateway
+システムの窓口に、Facadeコンポーネントを置くパターン
+- API Composition
+- プロトコル変換
+- クライアント専用API
+- など
+
 ## Demo
 
 ## Features
