@@ -97,6 +97,8 @@ Aggregate を整合性の境界とするパターン
 #### Domain Event
 Aggregate が生成・変更された時に非同期メッセージを発行するパターン
 
+#### 
+
 ## Demo
 
 ## Features
