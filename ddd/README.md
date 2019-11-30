@@ -28,6 +28,12 @@ Overview
 - Anthos による統合
 - `ビッグデータ`、`アナリティクス`、`ネットワーキング`、`セキュリティ`、`データベース`、`開発ツール` など
   - `GitLab`, `CloudBees`, `Neo4j`, `Seldon`, `Aerospile`, `Couchbase`, `Elastifile`, `WordPress`, `Prometheus` など
+
+##### Apigee
+- オンプレミス、クラウド、マルチクラウド、ハイブリッド環境を選択
+- 内部 API と外部 API のすべてを 1 つのプラットフォームで管理
+
+
 ## Demo
 
 ## Features
