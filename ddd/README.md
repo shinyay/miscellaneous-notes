@@ -35,7 +35,14 @@ Overview
 
 ##### Stackdriver
 - ログ、メトリクス、トレース、アラート
--  Google Cloud Platform、Amazon Web Services、オンプレミス
+- Google Cloud Platform、Amazon Web Services、オンプレミス
+
+### Istio
+- ロードバランシング：HTTP, gRPC, WebSocket, MongoDB, and TCP
+- トラフィックコントロール：routing rules, retries, failovers, and fault injection.
+- ポリシー設定：access controls, rate limits, and quotas.
+- メトリクス、ログ、トレース
+- サービス間通信
 
 ## Demo
 
