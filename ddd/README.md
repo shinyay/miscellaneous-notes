@@ -3,6 +3,10 @@
 Overview
 
 ## Description
+### OSS テクノロジー
+- Kubernetes
+- Istio
+- Knative
 
 ## Demo
 
