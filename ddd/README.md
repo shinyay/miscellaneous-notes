@@ -24,18 +24,29 @@ Overview
 - コンテナイメージの脆弱性スキャン
 - リスクのあるイメージを自動ロックダウン
 
+#### Serverless
+##### Cloud Run with GKE
+- Knative on GKE
+- HTTP リクエスト経由で呼び出し可能なステートレス コンテナ
+- トラフィックに応じてゼロから N までのオートスケール
+
+#### Marketplace
 ##### GCP Marketplace
 - Anthos による統合
 - `ビッグデータ`、`アナリティクス`、`ネットワーキング`、`セキュリティ`、`データベース`、`開発ツール` など
   - `GitLab`, `CloudBees`, `Neo4j`, `Seldon`, `Aerospile`, `Couchbase`, `Elastifile`, `WordPress`, `Prometheus` など
 
+#### API監理
 ##### Apigee
 - オンプレミス、クラウド、マルチクラウド、ハイブリッド環境を選択
 - 内部 API と外部 API のすべてを 1 つのプラットフォームで管理
 
+#### Observability
 ##### Stackdriver
 - ログ、メトリクス、トレース、アラート
 - Google Cloud Platform、Amazon Web Services、オンプレミス
+
+##### Google Cloud Service Mesh
 
 ### Istio
 - ロードバランシング：HTTP, gRPC, WebSocket, MongoDB, and TCP
@@ -43,6 +54,7 @@ Overview
 - ポリシー設定：access controls, rate limits, and quotas.
 - メトリクス、ログ、トレース
 - サービス間通信
+
 
 ## Demo
 
