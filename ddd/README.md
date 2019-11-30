@@ -11,6 +11,14 @@ Overview
 ### Migrate for Anthos
 `物理サーバー、オンプレミスの VM、Compute Engine VM、その他のクラウドで動作するVM` to **Google Kubernetes Engine（GKE） コンテナ**
 
+### Anthos プラットフォーム
+#### CI/CD
+##### Cloud Build
+- GitHub、Cloud Source Repositories、Bitbucket リポジトリに変更を push したときに、自動的にソースコードのビルド、テスト、デプロイが行われる
+- Maven、Gradle、Webpack、Go、Bazel などのビルドツール でパッケージング
+- Deploy to Kubernetes Engine、App Engine、Cloud Functions、Firebase
+- ローカル / クラウドビルド
+
 ## Demo
 
 ## Features
