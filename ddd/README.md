@@ -19,6 +19,11 @@ Overview
 - Deploy to Kubernetes Engine、App Engine、Cloud Functions、Firebase
 - ローカル / クラウドビルド
 
+##### Container Registry
+- 安全な非公開 Docker レジストリ
+- コンテナイメージの脆弱性スキャン
+- リスクのあるイメージを自動ロックダウン
+
 ## Demo
 
 ## Features
