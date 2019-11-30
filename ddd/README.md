@@ -33,6 +33,9 @@ Overview
 - オンプレミス、クラウド、マルチクラウド、ハイブリッド環境を選択
 - 内部 API と外部 API のすべてを 1 つのプラットフォームで管理
 
+##### Stackdriver
+- ログ、メトリクス、トレース、アラート
+-  Google Cloud Platform、Amazon Web Services、オンプレミス
 
 ## Demo
 
