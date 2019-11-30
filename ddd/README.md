@@ -24,6 +24,10 @@ Overview
 - コンテナイメージの脆弱性スキャン
 - リスクのあるイメージを自動ロックダウン
 
+##### GCP Marketplace
+- Anthos による統合
+- `ビッグデータ`、`アナリティクス`、`ネットワーキング`、`セキュリティ`、`データベース`、`開発ツール` など
+  - `GitLab`, `CloudBees`, `Neo4j`, `Seldon`, `Aerospile`, `Couchbase`, `Elastifile`, `WordPress`, `Prometheus` など
 ## Demo
 
 ## Features
